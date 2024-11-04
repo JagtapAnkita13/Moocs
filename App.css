@@ -1,0 +1,47 @@
+/* /* src/App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.profile-page {
+  text-align: center;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: medium;
+  border: 2px solid   rgb(13, 13, 14);
+  border-style: double;
+  box-shadow: 6px 6px 6px 10px #c8b6c9;
+}
+
+.profile-picture {
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 160px;
+  border-radius: 50%;
+  /* Circle shape */
+  object-fit: cover;
+  /* Cover the area without distortion */
+}
+
+.profile-details h2 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-decoration: underline;
+  
+  
+}
+
+.profile-details p {
+  color: #090101;
+  font-weight: bold;
+  word-spacing: 10px;
+}
